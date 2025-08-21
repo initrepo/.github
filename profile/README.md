@@ -1,73 +1,74 @@
-# **InitRepo.com \- Code Smarter, Not Harder 🚀**
+# **InitRepo**
 
-**Your AI Coding Co-pilot for Efficient, Cost-Effective, and Organized Development.**
+### **The Context Layer for AI-Driven Software Development**
 
-## **The Problem: The High Cost of AI-Powered Exploration**
+**InitRepo is an ecosystem designed to solve the core problem of "vibe coding" by creating a structured "source of truth" for software projects. This ensures that both human developers and AI coding agents work with clarity, precision, and perfect alignment.**
 
-Are you new to coding or exploring the power of AI-driven development? You've probably downloaded an AI-first IDE like Cursor or Windsurf, full of excitement. But then reality hits:
+## **The Problem: A Lack of Shared Context**
 
-* **💸 Credit Drain:** You burn through your free credits at an alarming rate.  
-* **🌀 Messy Codebase:** Your AI coding assistant goes off-track, leaving you with a fragile, confusing, and often unusable web app.  
-* **🤷‍♂️ Nothing to Show:** At the end of the day, you've spent time and money with little to no tangible progress.
+Development teams, especially those using AI assistants, suffer from a lack of shared context. This leads to "vibe coding," where work is based on assumptions rather than clear specifications, resulting in scope drift, duplicated effort, and buggy code.
 
-**initrepo.com was built to solve this.**
+Our vision is to become the industry standard for managing and distributing software project context, enabling any developer or AI agent to instantly understand the *what*, *why*, and *how* of a codebase.
 
-## **✨ What is InitRepo?**
+## **An Ecosystem for Project Context**
 
-**InitRepo is a specialized tool that acts as a "mission control" for your AI coding projects.** We provide a structured environment to manage your project's context, documentation, and goals. This ensures your AI coding agents stay focused, efficient, and on-task, helping you build better software faster and for less cost.
+InitRepo is built on three pillars that work together to provide a seamless context management experience.
 
-### **Key Features & Benefits**
+### **🤖 initrepo: The CLI (Open Source)**
 
-* 🧠 **Intelligent Context Management:** Provide your AI assistant with a clear "source of truth." No more confused models generating irrelevant code.  
-* 💰 **Save on Credits:** By keeping your AI agent on the right path, you eliminate wasted queries and dramatically reduce your credit consumption.  
-* 🚀 **Iterate & Pivot Faster:** With a well-documented context, you can quickly change direction or add new features without starting from scratch.  
-* 🗂️ **Stay Organized:** Automatically generate and maintain documentation as you build. Your project stays clean and understandable, whether you're working alone or with a team.  
-* 👨‍💻 **For Beginners & Pros:** Designed to be intuitive for those new to coding, but powerful enough to help experienced developers generate high-quality documentation in minutes, not hours.
+The free, open-source entry point for developers. This is a focused, powerful utility designed to be a fast and reliable codebase extractor.
 
-## **🧠 This Repo: Learn Advanced Context Engineering**
+* **Core Purpose:** To prepare an existing project for analysis by scanning a local repository, respecting its .gitignore file, and packaging all relevant source code into a single, structured file.  
+* **Primary Command:**  
+  Bash  
+  \# Scans the current directory and creates a context package  
+  initrepo extract
 
-Beyond just being a home for our app, this repository is evolving into a community hub for mastering **Context Engineering**. Here, we will explore and teach how to create the most effective context documentation to guide AI agents.
+### **🌐 initrepo.com: The SaaS Platform**
 
-Look for:
+The central web application and primary engine of the ecosystem. This platform acts as the "Blueprint Generator" for new projects and the planning hub for new features.
 
-* **Tutorials and Guides:** Best practices for structuring your project context.  
-* **Example initrepo Setups:** Real-world examples for different types of projects.  
-* **Community Discussions:** Share your techniques and learn from others in the [Issues](https://github.com/initrepo/.github/issues) and [Discussions](https://www.google.com/search?q=https://github.com/initrepo/.github/discussions) tabs.
-* **Road Map:** Check our our upcoming features we have in the works on our [RoadMap](https://www.initrepo.com/roadmap )
+* **Initial Blueprint Generation:** Transforms a project idea into a comprehensive set of Agile-powered documents (PRDs, User Stories, Architecture Specs, etc.).  
+* **"Feature Planner" Workflow:** Uses a project's existing context to generate a detailed implementation plan for a new feature, perfectly aligned with the current codebase.
 
-## **🎯 Who Is It For?**
+### **🔌 The MCP (Model Context Protocol)**
 
-* **New Coders & Students:** Learn to build real applications without the fear of a massive bill.  
-* **Bootcamp Grads:** Solidify your skills and build impressive portfolio projects efficiently.  
-* **Indie Hackers & Entrepreneurs:** Rapidly prototype and validate your ideas.  
-* **Experienced Developers:** Supercharge your workflow by automating documentation and maintaining project clarity.
+The underlying API and data schema that powers the ecosystem. The MCP is the standardized protocol for any AI agent to request and receive project context, enabling high-value B2B services.
 
-## **🚀 We're Live\! Get Early Access & Give Feedback**
+* **B2B Offering 1: The "Blueprint Marketplace"** for AI IDEs to scaffold new projects.  
+* **B2B Offering 2: The "Living Documentation" Service** to monitor dependencies and automate upgrades.
 
-We have a working MVP and are looking for our first users to help shape the future of initrepo.com. Your feedback is invaluable to us.
+## **🗺️ Roadmap**
 
-1. **Try the App:** [**Sign up at initrepo.com**](https://www.initrepo.com)  
-2. **Tell Us What You Think:** We're using **PostHog** for in-app feedback, but for more detailed thoughts...  
-3. **Share Your Feedback on GitHub:** Have an idea, a bug report, or general feedback? [**Create an issue**](https://github.com/initrepo/.github/issues). We read every single one\!
+We are building InitRepo in phases. Here is our strategic rollout plan:
 
-## **🗺️ Our Roadmap**
+* **Phase 1: Foundation (Current Focus)**  
+  * **\[✓\] SaaS:** Build the core document generators (PRD, Architecture, etc.).  
+  * **\[ \] CLI:** Build the initrepo extract command.  
+  * **\[ \] Protocol:** Define the v1 JSON schema for the "Context Package".  
+* **Phase 2: Ecosystem Expansion**  
+  * **\[ \] SaaS:** Launch the "Feature Planner" workflow.  
+  * **\[ \] CLI:** Add the initrepo plan command.  
+  * **\[ \] Services:** Launch the Pro Tier of the "Living Documentation" service.  
+* **Phase 3: B2B Integration & Market Leadership**  
+  * **\[ \] API:** Launch the "Blueprint Marketplace" B2B API.  
+  * **\[ \] Community:** Build out initrepo.tech with comprehensive API documentation.  
+  * **\[ \] Services:** Launch the Enterprise Tier of the "Living Documentation" service.
 
-We're just getting started\! Here's a sneak peek at what we're planning:
+## **🤝 Contributing & Community**
 
-* \[ \] **VS Code Extension:** Bring the power of InitRepo directly into your favorite editor.  
-* \[ \] **More AI Agent Integrations:** Support for a wider range of AI coding assistants.  
-* \[ \] **Team Collaboration:** Share project context with your entire team.  
-* \[ \] **Advanced Project Analytics:** Get insights into your development process.
+This repository is the central hub for the open-source components of InitRepo. We are building in the open and welcome community contributions.
 
-Have an idea for a feature? [Let us know\!](https://github.com/initrepo/.github/issues)
+* **Bug Reports & Feature Requests:** Have an idea or find a bug? [**Please create an issue**](https://github.com/initrepo/.github/issues).  
+* **Contributing:** Interested in contributing code? Please see our CONTRIBUTING.md file for details on our process.  
+* **Discussions:** Join our community in the [Discussions tab](https://www.google.com/search?q=https://github.com/initrepo/.github/discussions) to share ideas and ask questions.
 
 ## **🔗 Connect with Us**
 
 * **YouTube:** [@initrepo](https://www.youtube.com/@initrepo)  
 * **X (Twitter):** [@initrepoapp](https://x.com/initrepoapp)  
-* **LinkedIn:** [linkedin.com/company/initrepo](https://www.linkedin.com/company/initrepo/)  
-* **Facebook:** [facebook.com/initrepo](https://www.facebook.com/initrepo)
+* **LinkedIn:** [linkedin.com/company/initrepo](https://www.linkedin.com/company/initrepo/)
 
 ## **License**
 
-This project is licensed under the MIT License \- see the [LICENSE.md](http://docs.google.com/LICENSE.md) file for details.
+This project is licensed under the MIT License \- see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
